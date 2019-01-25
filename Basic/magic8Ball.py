@@ -21,6 +21,4 @@ def getAnswer(answerNumber):
     else:
         return 'Boring'
 
-r = random.randint(0,20)
-fortune = getAnswer(r)
-print(fortune)
+print(getAnswer(random.randint(1,9)))
